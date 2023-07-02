@@ -1,0 +1,73 @@
+:root{
+    font-size: 1em;
+    font-family: Roboto;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.video-title{
+    font-size: 1.125rem;
+    font-weight: bold;
+    text-align: left;
+    width:18.75rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.3125rem;
+}
+
+.video-stats{
+    font-size: 0.875rem;
+    font-weight: normal;
+    text-align: left;
+    width:18.75rem;
+    color: rgb(96,96,96);
+    margin-bottom: 1.25rem;
+}
+
+.video-author{
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: left;
+    width:18.75rem;
+    color: rgb(96,96,96);
+    margin-bottom: 1.25rem;
+}
+
+.video-description{
+    font-size: 0.875rem;
+    color: rgb(96,96,96);
+    width: 17.5rem;
+    line-height:1.375rem;
+    margin-bottom: 60rem;
+}
+
+.container{
+    background-color: rgb(227, 65, 64);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.footer-text{
+    padding: 1.5rem;
+    padding-right: 0;
+}
+.shop-text{
+    color: white;
+    text-decoration: none;
+    padding-left: 0.3rem;
+    transition: all 0.2s;
+}
+
+.shop-text:hover{
+    text-decoration: underline;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.shop-text:active{
+    opacity: 0.5;
+}
